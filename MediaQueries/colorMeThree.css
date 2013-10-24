@@ -1,0 +1,130 @@
+/* small screen - RED */ 
+@media screen and (min-width: 0px) and (max-width: 699px){ 
+body {
+    background-color: #A31919;
+    color: #5A0000;
+    }
+
+p {
+    font-size:large;    
+    }
+
+header {
+    background-color: #7A0000;
+    color: #D9B2B2; 
+    }
+
+article {
+    background-color: #D63333;
+    color: #5A0000;     
+    }
+
+.position01 {
+    width: 50px;
+    height: 50px;
+    background-color: #FAE6E6;
+    font-weight:bold;
+    }
+
+.position02 {
+    width: 50px;
+    height: 50px;
+    background-color: #F0B2B2;
+    font-weight:bold;
+    }
+
+.position03 {
+    width: 50px;
+    height: 50px;
+    background-color: #E06666;
+    font-weight:bold;
+    }
+
+}
+
+/* Medium screens - GREEN */
+@media screen and (min-width: 700px) and (max-width: 1024px){
+body {
+    background-color: #007700;
+    color: #004400;
+    }
+
+p {
+    font-size:large;    
+    }
+
+header {
+    background-color: #00AA00;
+    color: #BBFFBB; 
+    }
+
+article {
+    background-color: #00FF00;
+    color: #008800;     
+    }
+
+.position01 {
+    width: 50px;
+    height: 50px;
+    background-color: #BBFFBB;
+    font-weight:bold;
+    }
+
+.position02 {
+    width: 50px;
+    height: 50px;
+    background-color: #88FF88;
+    font-weight:bold;
+    }
+
+.position03 {
+    width: 50px;
+    height: 50px;
+    background-color: #55FF55;
+    font-weight:bold;
+    }
+}
+
+/* Large Screen - BLUE */ 
+@media screen and (min-width: 1025px) and (max-width: 2500px) {
+body {
+    background-color: #0000FF;
+    color: #99D6FF;
+    }
+
+p {
+    font-size:large;    
+    }
+
+header {
+    background-color: #004C80;
+    color: #CCEBFF; 
+    }
+
+article {
+    background-color: #0066FF;
+    color: #004C80;     
+    }
+
+.position01 {
+    width: 50px;
+    height: 50px;
+    background-color: #CCE0FF;
+    font-weight:bold;
+    }
+
+.position02 {
+    width: 50px;
+    height: 50px;
+    background-color: #99C2FF;
+    font-weight:bold;
+    }
+
+.position03 {
+    width: 50px;
+    height: 50px;
+    background-color: #4D94FF;
+    font-weight:bold;
+    }
+
+}
