@@ -41,7 +41,9 @@ I am a student at Bellevue College taking Online Web Development Classes.
 Here we are learning how to do CSS, HTML, Markdown and full on website design.
 
 ![favicon](HTML-Button.png) HTML5
+
 ![favicon](CSS.png) CSS
+
 ![favicon](md.png) Markdown
 
 ***
@@ -63,8 +65,11 @@ To contact the author of this website:
 Some details about the author.
 
 ![favicon](Hobbies.png) Hobbies: Photography, Hiking, Cooking, Gardening
+
 ![favicon](Experience.png) Experience: IT consultant for over 10 years.
+
 ![favicon](Education.png) Education: Currently attending Bellevue College, but always a UW Husky at heart.
+
 
 * * *
 
