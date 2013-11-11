@@ -136,7 +136,7 @@
 				<div id="monogoData" ng-controller="MyController">
 					<p>This section of the project retrieves a small amount of JSON from
 					a node server on Charlie's server.</p>
-					 <div class='inputDiv'>
+					<div class='inputDiv'>
 					<p>Rows in DB: {{presidentsLength}}</p>
 					<ul>
 						<li ng-repeat="president in presidents">
@@ -146,9 +146,10 @@
 						</li>
 					</ul>
 				    <div ng-bind-html-unsafe="hint"></div>
+				    </div> <!-- closes input Div -->
 				</div><!-- close of Database -->
 				
-			</div>
+			</div><!-- closes starter template -->
 		</div><!-- /.container -->
         <hr>
 		<footer>
