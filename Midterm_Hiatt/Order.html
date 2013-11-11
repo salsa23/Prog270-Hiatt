@@ -1,0 +1,158 @@
+<!DOCTYPE HTML>
+<html ng-app="elvenApp">
+	<head>
+		<meta charset="utf-8" />
+		<title>Midterm - Chelsa Hiatt</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="shortcut icon" href="./images/favicon.png">
+		
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="./css/bootstrap.min.css">
+		
+		<!-- Optional theme -->
+		<link rel="stylesheet" href="./css/bootstrap-theme.min.css">
+		<link href="./css/index.css" rel="stylesheet" type="text/css" />
+		
+		<!-- Latest compiled and minified JavaScript - Move to bottom of body element -->
+		<script src="//code.jquery.com/jquery.js"></script>
+		<script src="./js/bootstrap.min.js"></script>
+		
+		<!-- Java Script for database and sprite  -->
+		<script src="./js/angular.js"></script>
+		<script src="./js/angular-resource.js"></script>
+		<script src="./js/MongoData.js"></script>
+		<script src="./js/index.js"></script>
+		
+	</head>
+	<body>
+		<div class="navbar navbar-inverse navbar-fixed-top">
+			<div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+						<span class="icon-bar"> </span>
+						<span class="icon-bar"> </span>
+						<span class="icon-bar"> </span>
+						<span class="icon-bar"> </span>
+					</button>
+					<a class="navbar-brand" href="index.html">Hiatt Gardens</a>
+				</div>
+				<div class="collapse navbar-collapse">
+					<ul class="nav navbar-nav">
+						<li>
+							<a href="index.html">Home</a>
+						</li>
+						<li>
+							<a href="About.html">About</a>
+						</li>
+						<li>
+							<a href="Contacts.html">Contact</a>
+						</li>
+						<li class="active">
+							<a href="Order.html">Order</a>
+						</li>
+					</ul>
+				</div><!--/.nav-collapse -->
+			</div>
+		</div>
+
+		<div class="container">
+
+			<div class="starter-template">
+                <div id="about" style="margin:0 0 1em 0;">
+                    <h1>Order Fresh Produce</h1>
+                    
+                    <p>Stop by and order fresh organic produce during the season to be sure to get adequate nutrients for your family.
+                    We are proud to offer highest quality, fresh fruit, vegetables and herbs.</p>
+                    
+                    <p>You can also arrange for a services trade and work in the garden for your vegetables!!</p>
+                    
+                    <p>Come during the fall and participate in our apple harvest and Cider Press festivities!</p>
+                    
+                </div>
+                <div class="row" style ="clear:left">
+                
+                    <div class="col-sm-3">
+                        <p>POLLENATION</p>
+                        <div><img src="./images/pollenation.jpg" alt="The BEEs Pollenating" title="Bee Pollenation" width="200" /></div>
+                    </div> <!-- closes column -->
+                    
+                    <div class="col-sm-3">
+                        <p>SUGAR SNAP PEAS</p>
+                        <div><img src="./images/sugarsnappeas.jpg" alt="Peas" title="Peas" width="200" /></div>
+                    </div> <!-- closes column -->
+                    
+                    <div class="col-sm-3">
+                        <p>RAINBOW SWISS CHARD</p>
+                        <div><img src="./images/rainbowswisschard.jpg" alt="Rainbow Swiss Chard" title="Rainbow Swiss Chard" width="200" /></div>
+                    </div> <!-- closes column -->
+                    
+                    <div class="col-sm-3">
+                        <p>TOMATOES</p>
+                        <div><img src="./images/tomatoes.jpg" alt="Tomatoes" title="Tomatoes" width="200" /></div>
+                    </div> <!-- closes column -->
+                
+                    <div class="col-sm-3">
+                        <p>LETTUCE/PEAS</p>
+                        <div><img src="./images/lettucepeas.jpg" alt="Lettuce and Peas" title="Lettuce and Peas" width="200" /></div>
+                    </div> <!-- closes column -->
+                    
+                    <div class="col-sm-3">
+                        <p>KALE</p>
+                        <div><img src="./images/kale.jpg" alt="Kale" title="Kale" width="200" /></div>
+                    </div> <!-- closes column -->
+                    
+                    <div class="col-sm-3">
+                        <p>GREEN TOMATOES</p>
+                        <div><img src="./images/greentomatoes.jpg" alt="Green Tomatoes" title="Green Tomatoes" width="200" /></div>
+                    </div> <!-- closes column -->
+                    
+                    <div class="col-sm-3">
+                        <p>CARROTS</p>
+                        <div><img src="./images/carrotstems.jpg" alt="Funny Carrots" title="Funny Carrots" width="200" /></div>
+                    </div> <!-- closes column -->
+                    
+                    <div class="col-sm-3">
+                        <p>CARROTS/RADISHES</p>
+                        <div><img src="./images/carrotsradishes.jpg" alt="Carrots and Radishes" title="Carrots and Radishes" width="200" /></div>
+                    </div> <!-- closes column -->
+                    
+                    <div class="col-sm-3">
+                        <p>CANTELOPE</p>
+                        <div><img src="./images/cantelope.jpg" alt="Cantelope" title="Cantelope" width="200" /></div>
+                    </div> <!-- closes column -->
+                    
+			        <div class="col-sm-3">
+                        <p>CIDER: </p>
+                        <div><img src="./images/hardciderprocess.jpg" alt="Hard Cider Process" title="Hard Cider Process" width="200" /></div>
+                    </div> <!-- closes column -->
+                    
+                    <div class="col-sm-3">
+                        <p>BOTTLED HARD CIDER:</p>
+                        <div><img src="./images/bottledcider.jpg" alt="Bottled Hard Cider" title="Bottled Hard Cider" width="200" /></div>
+                    </div> <!-- closes column -->
+                    
+                </div> <!-- closes row  -->
+				<!-- Monogo Database -->
+				<div id="monogoData" ng-controller="MyController">
+					<p>This section of the project retrieves a small amount of JSON from
+					a node server on Charlie's server.</p>
+					 <div class='inputDiv'>
+					<p>Rows in DB: {{presidentsLength}}</p>
+					<ul>
+						<li ng-repeat="president in presidents">
+							<p>{{president.getPresidentName()}}<br/>
+								TermStart: {{president.getTermStart()}}<br/>
+								TermEnd: {{president.getTermEnd()}}</p>
+						</li>
+					</ul>
+				    <div ng-bind-html-unsafe="hint"></div>
+				</div><!-- close of Database -->
+				
+			</div>
+		</div><!-- /.container -->
+        <hr>
+		<footer>
+			<p>&copy; Hiatt 2013</p>
+		</footer>
+	</body>
+</html>

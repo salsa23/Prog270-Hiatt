@@ -1,0 +1,81 @@
+body 
+{
+	padding-top: 50px;
+	color: #005500;
+}
+
+h4 
+{
+  margin-top: 25px;
+}
+
+li
+{
+    list-style:square;    
+}
+
+hr 
+{
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+footer
+{
+  margin-right:10px;
+  text-align:right;
+}
+
+.container 
+{
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.row 
+{
+  margin-bottom: 20px;
+}
+
+.row .row {
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+
+.draw-target 
+{
+	width: 74px;
+	height:74px;
+	background-color: #005500;
+	position: relative;
+	float: left;
+	margin: 0px;
+}
+
+.starter-template 
+{
+  padding: 20px 15px;
+  text-align: left;
+}
+
+[class*="col-"] {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: #eee;
+  border: 1px solid #ddd;
+  background-color: rgba(86,61,124,.15);
+  border: 1px solid rgba(86,61,124,.2);
+  height:275px;
+}
+
+img{ 
+    float:left;
+    margin:0 2em 0 1em; 
+    padding:0;
+    vertical-align:middle; 
+}
+
+#monogoData 
+{
+	clear: both;
+}
