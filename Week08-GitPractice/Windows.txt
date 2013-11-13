@@ -1,0 +1,15 @@
+ Volume in drive C has no label.
+ Volume Serial Number is 4876-BCFC
+
+ Directory of C:\Users\chelsa.hiatt\Documents\GitHub\Prog270-Hiatt\Week08-GitPractice
+
+11/12/2013  05:47 PM                 0 Test01.md
+11/12/2013  05:48 PM                 0 Test02.md
+11/12/2013  06:29 PM               563 CloudNine.txt
+11/12/2013  06:29 PM               439 Lubuntu.txt
+11/12/2013  06:29 PM    <DIR>          images
+11/12/2013  06:34 PM    <DIR>          ..
+11/12/2013  06:34 PM                 0 Windows.txt
+11/12/2013  06:34 PM    <DIR>          .
+               5 File(s)          1,002 bytes
+               3 Dir(s)  130,119,913,472 bytes free
