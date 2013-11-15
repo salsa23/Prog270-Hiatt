@@ -1,13 +1,13 @@
 /**
- * @author Charlie Calvert, edited by Chelsa Hiatt 11/14/13
+ * @author Charlie Calvert
  */
 
 /* global angular */
 
 angular.module('elvenApp', ['pres'])
 .constant('CONFIG', {
-    DB_NAME: 'garden',
-    COLLECTION: 'plants',
+    DB_NAME: 'addressbook',
+    COLLECTION: 'addresses',
     API_KEY: 'e7XLHAAk8mJEAiTXsTwQmlGfTLR70R7A'
 })
 .controller('MyController', function($scope, $http, presidents) {
