@@ -1,0 +1,80 @@
+<!DOCTYPE HTML>
+<html ng-app="elvenApp">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>Midterm - Chelsa Hiatt</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="shortcut icon" href="./images/favicon.png">
+		
+		<!-- bootstrap compiled and minified CSS -->
+		<link rel="stylesheet" href="./css/bootstrap.min.css">
+		
+		<!-- Optional theme -->
+		<link rel="stylesheet" href="./css/bootstrap-theme.min.css">
+		<link href="./css/index.css" rel="stylesheet" type="text/css" />
+		
+		<!-- Latest compiled and minified JavaScript - Move to bottom of body element -->
+		<script src="//code.jquery.com/jquery.js"></script>
+		<script src="./js/bootstrap.min.js"></script>
+		
+		<!-- Java Script for database and sprite  -->
+		<script src="./js/angular.js"></script>
+		<script src="./js/angular-resource.js"></script>
+		<script src="./js/MongoData.js"></script>
+		<script src="./js/index.js"></script>
+	</head>
+	<body>
+		<div class="navbar navbar-inverse navbar-fixed-top">
+			<div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+						<span class="icon-bar"> </span>
+						<span class="icon-bar"> </span>
+						<span class="icon-bar"> </span>
+						<span class="icon-bar"> </span>
+					</button>
+					<a class="navbar-brand" href="index.html">Hiatt Gardens</a>
+				</div>
+				<div class="collapse navbar-collapse">
+					<ul class="nav navbar-nav">
+						<li class="active"><a href="index.html">Home</a></li>
+						<li><a href="About.html">About</a></li>
+						<li><a href="Contacts.html">Contact</a></li>
+                        <li><a href="Order.html">Order</a></li>
+					</ul>
+				</div><!--/.nav-collapse -->
+			</div>
+		</div>
+
+		<div class="container">
+			<div class="starter-template">
+
+				<h1>Hiatt Gardens</h1>
+
+                <p>Welcome to the path to healthy eating. We love to garden and cook with what grows.</p>
+                <img src="./images/gardenplanted.jpg" alt="garden a few weeks after planting" title="Our New Garden" width="350"/>
+                <p>This was a picture of our garden just a few weeks after planting it.</p>
+                <p>Some of our plants currently growing:</p>
+
+                <ul>
+                    <li>winter kale</li>
+                    <li>rainbow swiss chard</li>
+                    <li>variety of hardy lettuce</li>
+                </ul>
+
+                <p>We know that you will enjoy looking around. </p>
+                <p>Please let us know if you have any questions.</p>
+                <hr>
+
+                <!-- Animate Bootstrap -->
+				<div id='drawHere01' class='draw-target'></div>
+				<div id='drawHere02' class='draw-target'></div>
+			</div>
+
+		</div><!-- /.container -->
+        <hr>
+		<footer>
+			<p>&copy; Hiatt 2013</p>
+		</footer>
+	</body>
+</html>
